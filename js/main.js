@@ -1,5 +1,3 @@
-"use strict"
-	
 const mainAside = document.getElementById("aside");
 const smallasideBtn = document.getElementById("open-aside");
 const openasideBtn = document.getElementById("open-btn");
@@ -40,10 +38,12 @@ themeToggler.addEventListener("click", () => {
 $('body').css('paddingTop', $('.header').innerHeight() - 1);
 
 
-
+function loadHtml(selector, htmlContent){
+    document.querySelector(selector).innerHTML = htmlContent;
+}
 
 // put active btn on aside
-document.querySelectorAll('#aside .sidebar .aside-list li .sidebar-item').foreach(function (item) {
-	item.addEventListener('click',function(){$(this).addClass('active').siblings().removeClass('active');} ) ;
-});
-console.log($('#aside .sidebar .aside-list li'));
+// document.querySelectorAll('#aside .sidebar .aside-list li .sidebar-item').foreach(function (item) {
+// 	item.addEventListener('click',function(){$(this).addClass('active').siblings().removeClass('active');} ) ;
+// });
+// console.log($('#aside .sidebar .aside-list li'));
