@@ -1,4 +1,4 @@
-const leftAsideContent = `<div class="sidebar">
+const asideContent = `<div class="sidebar">
 
   <ul class="aside-list">
 
@@ -6,6 +6,13 @@ const leftAsideContent = `<div class="sidebar">
       <a href="index.html" class="sidebar-item active">
         <i class="fas fa-th" id="icon"></i>
         <h3>dashboard</h3>
+      </a> 
+    </li>
+
+    <li>
+      <a href="category.html" class="sidebar-item">
+        <i class="fas fa-chart-line" id="icon"></i>
+        <h3>categories</h3>
       </a> 
     </li>
 
