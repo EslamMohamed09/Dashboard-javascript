@@ -24,7 +24,28 @@ const asideContent = `<div class="sidebar">
     </li>
 
     <li>
-      <a href="add_product.html" class="sidebar-item">
+      <a href="messages.html" class="sidebar-item">
+        <i class="fas fa-envelope" id="icon"></i>
+        <h3>messages</h3>
+      </a> 
+    </li>
+
+    <li>
+      <a href="file_manager.html" class="sidebar-item">
+        <i class="fas fa-folder" id="icon"></i>
+        <h3>file manager</h3>
+      </a> 
+    </li>
+
+    <li>
+      <a href="reports.html" class="sidebar-item">
+        <i class="fas fa-exclamation-triangle" id="icon"></i>
+        <h3>reports</h3>
+      </a> 
+    </li>
+
+    <li>
+      <a href="products.html" class="sidebar-item">
         <i class="fas fa-store-alt" id="icon"></i>
         <h3>products</h3>
       </a> 
