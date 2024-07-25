@@ -1326,7 +1326,6 @@ section {
   flex-wrap: wrap;
   gap: 1rem;
 }
-
 .main-settings .cards .card {
   flex: 1 1 25rem;
   padding: 1rem;
@@ -1334,19 +1333,20 @@ section {
   border-radius: 0.3rem;
   background-color: var(--white);
   box-shadow: var(--box-shadow-varient);
+  /* First Card */
+  /* Second Card */
+  /* Third Card */
+  /* Fourth Card */
 }
-
 .main-settings .cards .card h2 {
   font-size: 1.3rem;
   font-weight: bold;
   color: var(--gray-color2);
 }
-
 .main-settings .cards .card p {
   font-size: 1rem;
   color: var(--gray-color6);
 }
-
 .main-settings .cards .card .content-card {
   display: flex;
   flex-direction: column;
@@ -1354,14 +1354,11 @@ section {
   margin: 0;
   margin-top: 1rem;
 }
-
-/* First Card */
 .main-settings .cards .card .line {
   display: flex;
   justify-content: space-between;
   background-color: transparent;
 }
-
 .main-settings .cards .card .line .left span {
   font-size: 1rem;
   font-weight: bold;
@@ -1369,19 +1366,16 @@ section {
   margin: 0;
   margin-bottom: 0.3rem;
 }
-
 .main-settings .cards .card .line .left p {
   font-size: 0.9rem;
   color: var(--gray-color6);
 }
-
 .main-settings .cards .card .line label {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 .main-settings .cards .card .line label input[type=checkbox],
 .main-settings .cards .card .line label input[type=checkbox]:focus {
   border: none;
@@ -1390,7 +1384,6 @@ section {
   -webkit-appearance: none;
   display: none;
 }
-
 .main-settings .cards .card .line label .toggle-switch {
   width: 4.5rem;
   height: 2rem;
@@ -1407,7 +1400,6 @@ section {
   bottom: 0.5rem;
   background-color: var(--gray-color8);
 }
-
 .main-settings .cards .card .line label .toggle-switch .fa-xmark {
   width: 1.5rem;
   height: 1.5rem;
@@ -1424,7 +1416,6 @@ section {
   left: 0.3rem;
   z-index: 2;
 }
-
 .main-settings .cards .card .line label .toggle-switch .fa-check {
   width: 1.5rem;
   height: 1.5rem;
@@ -1441,24 +1432,20 @@ section {
   left: 0.3rem;
   z-index: 1;
 }
-
 .main-settings .cards .card .line label .toggle-checkbox:checked + .toggle-switch {
   background-color: var(--light-blue2);
 }
-
 .main-settings .cards .card .line label .toggle-checkbox:checked + .toggle-switch .fa-xmark {
   background-color: var(--primary-color9);
   left: 2.7rem;
   opacity: 0;
   z-index: 1;
 }
-
 .main-settings .cards .card .line label .toggle-checkbox:checked + .toggle-switch .fa-check {
   left: 2.7rem;
   opacity: 1;
   z-index: 2;
 }
-
 .main-settings .cards .card textarea {
   border: 1px solid var(--gray-color7);
   padding: 0.5rem;
@@ -1467,35 +1454,27 @@ section {
   height: 5rem;
   resize: none;
 }
-
-/* Second Card */
-.main-settings .cards .second-card .content-card .input-group {
+.main-settings .cards .card .second-card .content-card .input-group {
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
 }
-
-.main-settings .cards .second-card .content-card .input-group label {
+.main-settings .cards .card .second-card .content-card .input-group label {
   font-size: 1.1rem;
   font-weight: bold;
   color: var(--gray-color3);
 }
-
-/* Third Card */
 .main-settings .cards .card .content-card .line {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-
 .main-settings .cards .card .content-card .line .info span {
   font-size: 1.1rem;
   font-weight: bold;
   color: var(--gray-color3);
 }
-
-/* Fourth Card */
 .main-settings .cards .card .content-card .social-group {
   display: flex;
   flex-direction: row;
@@ -1505,19 +1484,16 @@ section {
   border-radius: 0.3rem;
   border: 1px solid var(--gray-color7);
 }
-
 .main-settings .cards .card .content-card .social-group #social-link {
   margin: 0;
   padding: 0.4rem 1rem;
   background-color: var(--gray-color7);
 }
-
 .main-settings .cards .card .content-card .social-group #social-link #sicon {
   font-size: 1.5rem;
   color: var(--gray-color2);
   margin: 0;
 }
-
 .main-settings .cards .card .content-card .social-group #socialinput {
   flex: 1 1 20rem;
   font-size: 1.1rem;
@@ -1528,7 +1504,6 @@ section {
   margin: 0;
   background-color: transparent;
 }
-
 .main-settings .cards .card .content-card .social-group:focus-within #social-link #sicon {
   color: var(--light-blue3);
 }
