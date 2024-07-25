@@ -59,6 +59,13 @@ const asideContent = `<div class="sidebar">
     </li>
 
     <li>
+      <a href="settings.html" class="sidebar-item">
+        <i class="fas fa-cog" id="icon"></i>
+        <h3>settings</h3>
+      </a> 
+    </li>
+
+    <li>
       <a href="#" class="sidebar-item">
         <i class="fas fa-sign-out-alt" id="icon"></i>
         <h3>logout</h3>
