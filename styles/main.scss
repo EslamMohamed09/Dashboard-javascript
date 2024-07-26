@@ -2075,25 +2075,42 @@ table tbody tr td .buttons .fa-check {color:var(--light-green7);}
 
 
 @media (max-width:768px){
-      .main-profile-page .profile-data .col-left {padding-bottom:2rem;}
-      .main-profile-page .profile-data .col-left .image-card {margin-top:1rem;
-                                                              margin-bottom:2rem;}
-      .main-profile-page .profile-data .col-right .info-cards .info-card.gen-info .blocks .block .details .item {margin-bottom:1.2rem;}
-      .main-profile-page .profile-data .col-right .info-cards .info-card.education .box .fa-graduation-cap {width:1.5rem;
-                                                                                                            height:1.5rem;
-                                                                                                            left:-1.4rem;}
+      .main-profile-page {
 
-      .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label .toggle-checkbox:checked + .toggle-switch .fa-xmark {left:3.1rem;}
+              .profile-data {
 
-      .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label .toggle-checkbox:checked + .toggle-switch .fa-check {left:3.1rem;}
+                     .col-left {padding-bottom:2rem;
+                            .image-card {margin-top:1rem;
+                                         margin-bottom:2rem;}
+                     }
 
-      .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label .toggle-switch .fa-xmark {width:0.5rem;
-                                                                                                                     height:0.5rem;}
+                     .col-right {
 
-      .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label .toggle-switch .fa-check {width:0.5rem;
-                                                                                                                    height:0.5rem;}
+                            .info-cards {
 
-      .main-profile-page .profile-data .col-right .info-cards .info-card.my-skills .blocks .block {margin-bottom:2.5rem;}
+                                   .info-card {
+                                          .title-area {
+                                                 label .toggle-checkbox:checked + .toggle-switch .fa-xmark {left:3.1rem;}
+
+                                                 label .toggle-checkbox:checked + .toggle-switch .fa-check {left:3.1rem;}
+
+                                                 label .toggle-switch .fa-xmark {width:0.5rem;
+                                                                                 height:0.5rem;}
+
+                                                 label .toggle-switch .fa-check {width:0.5rem;
+                                                                                 height:0.5rem;}
+                                          }
+                                   }
+                                   .info-card.my-skills .blocks .block {margin-bottom:2.5rem;}
+                            }
+                            .info-card.gen-info .blocks .block .details .item {margin-bottom:1.2rem;}
+                            .info-card.education .box .fa-graduation-cap {width:1.5rem;
+                                                                          height:1.5rem;
+                                                                          left:-1.4rem;}
+
+                     }
+              }
+       }
 }
 
 @media(max-width:400px){
