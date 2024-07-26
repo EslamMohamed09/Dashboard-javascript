@@ -2340,6 +2340,7 @@ table tbody tr td .buttons .fa-check {
 }
 .main-profile-page .profile-data .col-right {
   background-color: transparent;
+  /* tabs area */
 }
 .main-profile-page .profile-data .col-right .info-cards {
   width: 100%;
@@ -2529,58 +2530,39 @@ table tbody tr td .buttons .fa-check {
 .main-profile-page .profile-data .col-right .info-cards .my-skills .blocks {
   gap: 9%;
 }
-
-@media (max-width: 266px) {
-  .main-profile-page .profile-data .col-right .info-cards .my-skills .blocks {
-    flex-wrap: wrap;
-  }
-}
 .main-profile-page .profile-data .col-right .info-cards .my-skills .blocks .block {
   width: 100%;
   padding-top: 0.5rem;
   height: fit-content;
   gap: 1.1rem;
 }
-
 .main-profile-page .profile-data .col-right .info-cards .my-skills .blocks .block .title-area {
   width: 100%;
 }
-
 .main-profile-page .profile-data .col-right .info-cards .my-skills .blocks .block .details {
   flex-wrap: wrap;
   line-height: 2.5rem;
   width: 80%;
   gap: 0.5rem;
 }
-
-@media (max-width: 400px) {
-  .main-profile-page .profile-data .col-right .info-cards .my-skills .blocks .block .details {
-    width: 100%;
-  }
-}
 .main-profile-page .profile-data .col-right .info-cards .my-skills .blocks .block .fa-check {
   color: var(--primary-color15);
 }
-
-/* tabs area */
 .main-profile-page .profile-data .col-right .tabs-area {
   width: 100%;
   flex-wrap: nowrap;
   gap: 2rem;
   padding: 1.2rem 0 1.2rem 1.2rem;
 }
-
 .main-profile-page .profile-data .col-right .tabs-area li {
   cursor: pointer;
   font-weight: normal;
   font-size: 1.3rem;
   position: relative;
 }
-
 .main-profile-page .profile-data .col-right .tabs-area li.button-active {
   color: var(--primary-color9);
 }
-
 .main-profile-page .profile-data .col-right .tabs-area li.button-active::before {
   content: "";
   width: 100%;
@@ -2599,6 +2581,22 @@ table tbody tr td .buttons .fa-check {
   margin: 2rem auto 1rem;
 }
 
+@media (max-width: 400px) {
+  .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label .toggle-switch {
+    width: 3.5rem;
+  }
+  .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label .toggle-checkbox:checked + .toggle-switch .fa-check {
+    left: 2.2rem;
+  }
+  .main-profile-page .profile-data .col-right .info-cards .my-skills .blocks .block .details {
+    width: 100%;
+  }
+}
+@media (max-width: 266px) {
+  .main-profile-page .profile-data .col-right .info-cards .my-skills .blocks {
+    flex-wrap: wrap;
+  }
+}
 /* Edit certification */
 .edit-certification-form {
   margin-top: 2rem;
@@ -2808,14 +2806,6 @@ table tbody tr td .buttons .fa-check {
     width: 1.5rem;
     height: 1.5rem;
     left: -1.4rem;
-  }
-}
-@media (max-width: 400px) {
-  .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label .toggle-switch {
-    width: 3.5rem;
-  }
-  .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label .toggle-checkbox:checked + .toggle-switch .fa-check {
-    left: 2.2rem;
   }
 }
 /*====DASHBOARD====*** MAIN CATEGORY ***================*/
