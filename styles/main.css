@@ -2310,69 +2310,60 @@ table tbody tr td .buttons .fa-check {
   margin-bottom: 3rem;
   min-height: 30vh;
   background-color: var(--white);
+  /* col-right */
 }
-
 .main-profile-page .profile-data .col-left {
   text-align: center;
 }
-
 .main-profile-page .profile-data .col-left .image-card {
   text-align: center;
   gap: 0.4rem;
   margin-top: 3rem;
 }
-
 .main-profile-page .profile-data .col-left .image-card .image {
   background-color: transparent;
 }
-
 .main-profile-page .profile-data .col-left .image-card .image img {
   width: 7rem;
   height: 7rem;
   object-fit: cover;
   border-radius: 50%;
 }
-
 .main-profile-page .profile-data .col-left h3 {
   color: var(--gray-color1);
   font-weight: bold;
   margin-top: 0.6rem;
 }
-
 .main-profile-page .profile-data .col-left p {
   color: var(--gray-color4);
   font-weight: bold;
 }
-
-/* col-right */
 .main-profile-page .profile-data .col-right {
   background-color: transparent;
 }
-
 .main-profile-page .profile-data .col-right .info-cards {
   width: 100%;
   padding: 1rem;
+  /* gen-info */
+  /* education card */
+  /* my skills */
 }
-
 .main-profile-page .profile-data .col-right .info-cards .info-card {
   width: 100%;
   padding: 0;
   background-color: transparent;
+  /* open/close */
 }
-
 .main-profile-page .profile-data .col-right .info-cards .info-card .blocks .block .title-area,
 .main-profile-page .profile-data .col-right .info-cards .info-card .box .title-area {
   flex-wrap: nowrap;
   width: 99%;
 }
-
 .main-profile-page .profile-data .col-right .info-cards .info-card .blocks .block h5 {
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
   color: var(--light-blue5);
 }
-
-/* open/close */
 .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label input[type=checkbox],
 .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label input[type=checkbox]:focus {
   border: none;
@@ -2381,7 +2372,6 @@ table tbody tr td .buttons .fa-check {
   -webkit-appearance: none;
   display: none;
 }
-
 .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label .toggle-switch {
   width: 4.5rem;
   height: 1.6rem;
@@ -2398,7 +2388,6 @@ table tbody tr td .buttons .fa-check {
   position: relative;
   background-color: var(--gray-color8);
 }
-
 .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label .toggle-switch .fa-xmark {
   width: 0.7rem;
   height: 0.7rem;
@@ -2415,7 +2404,6 @@ table tbody tr td .buttons .fa-check {
   z-index: 2;
   opacity: 1;
 }
-
 .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label .toggle-switch .fa-check {
   width: 0.7rem;
   height: 0.7rem;
@@ -2432,53 +2420,40 @@ table tbody tr td .buttons .fa-check {
   z-index: 1;
   opacity: 0;
 }
-
 .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label .toggle-checkbox:checked + .toggle-switch {
   background-color: var(--shin-blue2);
 }
-
 .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label .toggle-checkbox:checked + .toggle-switch .fa-xmark {
   left: 3rem;
   opacity: 0;
   z-index: 1;
   background-color: var(--primary-color9);
 }
-
 .main-profile-page .profile-data .col-right .info-cards .info-card .title-area label .toggle-checkbox:checked + .toggle-switch .fa-check {
   left: 3rem;
   opacity: 1;
   z-index: 2;
 }
-
-/* gen-info */
 .main-profile-page .profile-data .col-right .info-cards .gen-info .blocks .block {
   width: 100%;
   padding: 2rem 0;
   gap: 0.7rem;
   border-bottom: 1px solid var(--gray-color8);
 }
-
-.main-profile-page .profile-data .col-right .info-cards .gen-info .blocks .block:last-child {
-  border: none;
-}
-
 .main-profile-page .profile-data .col-right .info-cards .gen-info .blocks .block .details {
   width: 100%;
   flex-wrap: wrap;
   gap: 5%;
 }
-
 .main-profile-page .profile-data .col-right .info-cards .gen-info .blocks .block .details p {
   font-size: 1rem;
   color: var(--gray-color3);
 }
-
 .main-profile-page .profile-data .col-right .info-cards .gen-info .blocks .block .details p span {
   color: var(--primary-color13);
   font-weight: bold;
   margin-right: 1px;
 }
-
 .main-profile-page .profile-data .col-right .info-cards .gen-info .blocks .block .details .item {
   display: flex;
   flex-direction: row;
@@ -2488,12 +2463,10 @@ table tbody tr td .buttons .fa-check {
   margin: 0;
   padding: 0;
 }
-
 .main-profile-page .profile-data .col-right .info-cards .gen-info .blocks .block .details .item #icon {
   color: var(--color-dark);
   margin-top: 0.2rem;
 }
-
 .main-profile-page .profile-data .col-right .info-cards .gen-info .blocks .block .details .item .desc {
   display: flex;
   flex-direction: column;
@@ -2501,18 +2474,17 @@ table tbody tr td .buttons .fa-check {
   margin: 0;
   padding: 0;
 }
-
 .main-profile-page .profile-data .col-right .info-cards .gen-info .blocks .block .details .item .desc span {
   font-size: 1.1rem;
   color: var(--gray-color3);
 }
-
 .main-profile-page .profile-data .col-right .info-cards .gen-info .blocks .block .details .item .desc p {
   text-transform: lowercase;
   color: var(--gray-color4);
 }
-
-/* education card */
+.main-profile-page .profile-data .col-right .info-cards .gen-info .blocks .block:last-child {
+  border: none;
+}
 .main-profile-page .profile-data .col-right .info-cards .education .box {
   display: flex;
   flex-direction: column;
@@ -2521,12 +2493,6 @@ table tbody tr td .buttons .fa-check {
   border-left: 0.2rem solid var(--primary-color16);
   position: relative;
 }
-
-.main-profile-page .profile-data .col-right .info-cards .education .box:first-child,
-.main-profile-page .profile-data .col-right .info-cards .education .box:nth-child(3) {
-  padding-right: 3.5rem !important;
-}
-
 .main-profile-page .profile-data .col-right .info-cards .education .box .fa-graduation-cap {
   width: 2rem;
   height: 2rem;
@@ -2539,7 +2505,6 @@ table tbody tr td .buttons .fa-check {
   color: var(--white);
   background: radial-gradient(var(--shin-blue), var(--primary-color16));
 }
-
 .main-profile-page .profile-data .col-right .info-cards .education .box span {
   width: 9rem;
   border-radius: 5rem;
@@ -2553,13 +2518,14 @@ table tbody tr td .buttons .fa-check {
   color: var(--white);
   background: radial-gradient(var(--shin-blue), var(--primary-color16));
 }
-
 .main-profile-page .profile-data .col-right .info-cards .education .box h4 {
   font-weight: bold;
   margin-top: 0.5rem;
 }
-
-/* my skills */
+.main-profile-page .profile-data .col-right .info-cards .education .box:first-child,
+.main-profile-page .profile-data .col-right .info-cards .education .box:nth-child(3) {
+  padding-right: 3.5rem !important;
+}
 .main-profile-page .profile-data .col-right .info-cards .my-skills .blocks {
   gap: 9%;
 }
