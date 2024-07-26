@@ -2603,39 +2603,41 @@ table tbody tr td .buttons .fa-check {
 .edit-certification-form {
   margin-top: 2rem;
 }
-
 .edit-certification-form h2 {
   text-align: left;
   color: var(--shin-blue7);
   text-transform: uppercase;
 }
-
 .edit-certification-form h2 hr {
   flex: 1 1 20rem;
   color: var(--light-aqua4);
   margin-left: 0.5rem;
 }
-
-.edit-certification-form > div {
-  margin: 1.5rem 0;
-}
-
 .edit-certification-form .input-box .form_control {
   width: 100%;
 }
-
 .edit-certification-form .double-input-box {
   width: 100%;
   gap: 1rem;
 }
-
 .edit-certification-form .double-input-box .input-box {
   flex: 1 1 30rem;
   margin: 0;
 }
-
 .edit-certification-form .double-input-box .input-box:first-child {
   padding-right: 2rem;
+}
+.edit-certification-form .submit-inputs .btn {
+  width: 100%;
+}
+.edit-certification-form .submit-inputs .col-md-2 .btn {
+  height: 100%;
+  padding: 0.2rem !important;
+  font-size: 1.2rem;
+}
+
+.edit-certification-form > div {
+  margin: 1.5rem 0;
 }
 
 @media (min-width: 575px) and (max-width: 1000px) {
@@ -2643,16 +2645,6 @@ table tbody tr td .buttons .fa-check {
     padding-left: 1rem !important;
   }
 }
-.edit-certification-form .submit-inputs .btn {
-  width: 100%;
-}
-
-.edit-certification-form .submit-inputs .col-md-2 .btn {
-  height: 100%;
-  padding: 0.2rem !important;
-  font-size: 1.2rem;
-}
-
 @media (max-width: 577px) {
   .edit-certification-form .submit-inputs .col-md-2 {
     margin-bottom: 0.5rem;
@@ -2672,27 +2664,23 @@ table tbody tr td .buttons .fa-check {
 .add-certification-form {
   display: block;
 }
-
-.add-certification-form > div {
-  margin: 2rem 0;
-}
-
 .add-certification-form .form_control {
   width: 100%;
 }
-
 .add-certification-form .double-input-box {
   width: 100%;
   gap: 1rem;
 }
-
 .add-certification-form .double-input-box .input-box {
   flex: 1 1 30rem;
   margin: 0;
 }
-
 .add-certification-form .double-input-box .input-box:first-child {
   padding-right: 2rem;
+}
+
+.add-certification-form > div {
+  margin: 2rem 0;
 }
 
 @media (min-width: 575px) and (max-width: 1000px) {
@@ -2708,14 +2696,12 @@ table tbody tr td .buttons .fa-check {
 .add-certification-form .submit-input {
   position: relative;
 }
-
 .add-certification-form .submit-input .fa-plus {
   color: var(--light-violet);
   position: absolute;
   left: 50%;
   transform: translateX(-7.5rem);
 }
-
 .add-certification-form .submit-input .btn {
   width: 100%;
 }
@@ -2729,22 +2715,18 @@ table tbody tr td .buttons .fa-check {
 .edit-skills-form {
   margin-top: 3rem;
 }
-
 .edit-skills-form .skills-blocks {
   flex-wrap: wrap;
   gap: 1.5rem;
   margin-bottom: 2rem;
 }
-
 .edit-skills-form .skills-blocks .block {
   flex: 1 1 20rem;
   gap: 1rem;
 }
-
 .edit-skills-form .skills-blocks .block .control-label {
   margin-bottom: 0.1rem;
 }
-
 .edit-skills-form .skills-blocks .block textarea {
   height: 10rem;
   width: 100%;
@@ -2753,7 +2735,6 @@ table tbody tr td .buttons .fa-check {
   font-size: 1.4rem;
   background: radial-gradient(var(--light-blue), var(--gray-color9));
 }
-
 .edit-skills-form .skills-blocks .block textarea .tag {
   display: inline-block;
   padding: 0.2rem 0.5rem;
@@ -2761,25 +2742,21 @@ table tbody tr td .buttons .fa-check {
   border-radius: 0.2rem;
   border: 1px solid var(--gray-color7) !important;
 }
-
 .edit-skills-form .skills-blocks .block .form_control {
   width: 100%;
   padding: 0.5rem 1rem;
   border: 1px solid var(--gray-color8);
 }
-
 .edit-skills-form .skills-blocks .block .btn2 {
   width: 9rem;
   margin-left: calc(100% - 9rem);
   border-radius: 0.4rem;
 }
-
 .edit-skills-form .submit-inputs {
   width: 100%;
   gap: 0.8rem;
   margin: 0;
 }
-
 .edit-skills-form .submit-inputs .btn {
   flex: 1 1 30rem;
 }
@@ -2788,14 +2765,12 @@ table tbody tr td .buttons .fa-check {
 .add-skills-form .submit-input {
   position: relative;
 }
-
 .add-skills-form .submit-input .fa-plus {
   color: var(--light-violet);
   position: absolute;
   left: 50%;
   transform: translateX(-5rem);
 }
-
 .add-skills-form .submit-input .btn,
 .add-skills-form .submit-input .btn2 {
   width: 100%;
