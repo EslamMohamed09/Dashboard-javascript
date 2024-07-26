@@ -2,12 +2,19 @@ const asideContent = `<div class="sidebar">
 
   <ul class="aside-list">
 
-    <li>
-      <a href="index.html" class="sidebar-item active">
-        <i class="fas fa-th" id="icon"></i>
-        <h3>dashboard</h3>
-      </a> 
-    </li>
+   <li>
+    <a href="index.html" class="sidebar-item active">
+      <i class="fas fa-th" id="icon"></i>
+      <h3>dashboard</h3>
+    </a> 
+   </li>
+
+   <li>
+    <a href="profile.html" class="sidebar-item">
+      <i class="fas fa-user" id="icon"></i>
+      <h3>profile</h3>
+    </a> 
+   </li>
 
     <li>
       <a href="category.html" class="sidebar-item">
