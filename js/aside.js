@@ -78,6 +78,13 @@ const asideContent = `<div class="sidebar">
         <h3>logout</h3>
       </a>
     </li>
+
+    <li>
+      <a href="users.html" class="sidebar-item">
+        <i class="fas fa-user" id="icon"></i>
+        <h3>users</h3>
+      </a> 
+    </li>
     
   </ul>
 
