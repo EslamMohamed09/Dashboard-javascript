@@ -2457,25 +2457,31 @@ table {width:100%;
 /*******USERS******
  # Edit
 *******************/
-.edit-member-page .sub-heading {margin:1rem 0;}
+.edit-member-page {
 
-/* Edit certification */
-.edit-member-page .edit-certification-form:first-child {margin-top:4rem;}
+       .sub-heading {margin:1rem 0;}
 
-.edit-member-page .edit-certification-form h2 {text-align:left;
-                                               color:var(--shin-blue7);}
+       /* Edit certification */
+       .edit-certification-form:first-child {margin-top:4rem;}
 
-.edit-member-page .edit-certification-form h2 hr {flex:1 1 20rem;
-                                                  color:var(--light-aqua4);
-                                                  margin-left:0.4rem;}
+       .edit-certification-form > div {margin:1.5rem 0;}
 
-.edit-member-page .edit-certification-form > div {margin:1.5rem 0;}
+       .edit-certification-form {
+              h2 {text-align:left;
+                  color:var(--shin-blue7);
 
-.edit-member-page .edit-certification-form .control-label {color:var(--shin-blue4);}
+                 hr {flex:1 1 20rem;
+                     color:var(--light-aqua4);
+                     margin-left:0.4rem;}
+              }
 
-.edit-member-page .edit-certification-form .submit-input .col-md-2 .btn {height:100%;
-                                                                         padding:0.2rem !important;
-                                                                         font-size:1.2rem;}
+              .control-label {color:var(--shin-blue4);}
+
+              .submit-input .col-md-2 .btn {height:100%;
+                                            padding:0.2rem !important;
+                                            font-size:1.2rem;}
+       }
+}
 
 @media(max-width:577px){ .edit-member-page .edit-certification-form .submit-input .col-md-2 {margin-bottom:0.5rem;} }
 
