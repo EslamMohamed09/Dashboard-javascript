@@ -1438,7 +1438,8 @@ table {width:100%;
 
 
 /************** RECENT ORDER **************/
-.main-dashboard .recent-order {width:99%;
+.main-dashboard {
+       .recent-order {width:99%;
                                display:block;
                                margin:1rem auto;
                                padding:1rem;
@@ -1447,49 +1448,49 @@ table {width:100%;
                                background-color:var(--white);
                                box-shadow:var(--box-shadow2);}
 
-.main-dashboard .recent-order h3 {text-align:left;
+       .recent-order h3 {text-align:left;
                                   font-weight:bold;
                                   font-size:18px;
                                   margin:0;
                                   margin-bottom:2rem;
                                   text-transform:uppercase;}
 
-.main-dashboard .recent-order table {width:100%;
+       .recent-order table {width:100%;
                                      padding:3rem;
                                      margin:auto;
                                      text-align:center;
                                      border-radius:0;
                                      background-color:transparent;}
 
-.main-dashboard .recent-order table thead {padding:6rem;
+       .recent-order table thead {padding:6rem;
                                            border-top-left-radius:0.7rem;
                                            border-top-right-radius:0.7rem;}
 
-.main-dashboard .recent-order table thead tr {border-top-left-radius:0.7rem;
+       .recent-order table thead tr {border-top-left-radius:0.7rem;
                                               border-top-right-radius:0.7rem;
                                               padding:7rem;}
 
-.main-dashboard .recent-order table thead tr th {padding:1rem 0;
+       .recent-order table thead tr th {padding:1rem 0;
                                                  font-size:1.2rem;
                                                  border-right:1px solid var(--gray-color8);}
 
-.main-dashboard .recent-order table thead tr th:last-child {border-right:none;}
+       .recent-order table thead tr th:last-child {border-right:none;}
 
 
-.main-dashboard .recent-order table tbody tr:first-child {border-top:1px solid var(--gray-color8);}
+       .recent-order table tbody tr:first-child {border-top:1px solid var(--gray-color8);}
 
-.main-dashboard .recent-order table tbody tr {border-bottom:1px solid var(--gray-color8);}
+       .recent-order table tbody tr {border-bottom:1px solid var(--gray-color8);}
 
-.main-dashboard .recent-order table tbody tr td {padding:0.6rem 0;
+       .recent-order table tbody tr td {padding:0.6rem 0;
                                                  font-size:1.1rem;
                                                  border-right:1px solid var(--gray-color8);}
 
-.main-dashboard .recent-order table tbody tr:last-child {border-bottom:none;}
+       .recent-order table tbody tr:last-child {border-bottom:none;}
 
-.main-dashboard .recent-order table tbody tr td:last-child {border-right:none;}
+       .recent-order table tbody tr td:last-child {border-right:none;}
 
 /*================= RIGHT ASIDE =========================*/
-.main-dashboard .right-aside {flex:1 1 5rem;
+       .right-aside {flex:1 1 5rem;
                               display:flex;
                               flex-direction:column;
                               justify-content:flex-start;
@@ -1500,7 +1501,7 @@ table {width:100%;
                               padding-left:1rem;
                               margin:0;}
 
-.main-dashboard .right-aside .block {display:flex;
+       .right-aside .block {display:flex;
                                      flex-direction:column;
                                      justify-content:center;
                                      align-items:flex-start;
@@ -1512,11 +1513,11 @@ table {width:100%;
                                      gap:1.6rem;
                                      border-radius:1rem;}
 
-.main-dashboard .right-aside .block:nth-child(3) {padding:0;
+       .right-aside .block:nth-child(3) {padding:0;
                                                   background-color:transparent;
                                                   box-shadow:none;}
 
-.main-dashboard .right-aside .block-title {font-size:1.4rem;
+       .right-aside .block-title {font-size:1.4rem;
                                            font-weight:bold;
                                            text-align:left;
                                            width:100%;
@@ -1525,38 +1526,38 @@ table {width:100%;
                                            margin:0.2rem 0 0;
                                            border-bottom:1.5px solid var(--light-yellow1);}
 
-.main-dashboard .right-aside .block:nth-child(3) .block-title {border-bottom:0;
+       .right-aside .block:nth-child(3) .block-title {border-bottom:0;
                                                                padding-bottom:0;}
 
 /*****RIGHT ASIDE***** active users block **************/
-.main-dashboard .right-aside .active-users .images {display:flex;
+       .right-aside .active-users .images {display:flex;
                                                     flex-direction:row;
                                                     width:100%;
                                                     justify-content:space-between;
                                                     margin:0;}
 
-.main-dashboard .right-aside .active-users .images img {width:4rem;
+       .right-aside .active-users .images img {width:4rem;
                                                         height:4rem;
                                                         border-radius:50%;
                                                         object-fit:cover;}
 
-.main-dashboard .right-aside .active-users {margin-top:3rem;}
+       .right-aside .active-users {margin-top:3rem;}
 
 
 /*****RIGHT ASIDE***** recent-updates block **************/
-.main-dashboard .right-aside .recent-updates .updates {display:flex;
+       .right-aside .recent-updates .updates {display:flex;
                                                        flex-direction:column;
                                                        justify-content:center;
                                                        gap:1rem;
                                                        width:100%;
                                                        margin:0;}
 
-.main-dashboard .right-aside .recent-updates .updates .update {display:flex;
+       .right-aside .recent-updates .updates .update {display:flex;
                                                                flex-direction:row;
                                                                justify-content:center;
                                                                align-items:center;}
 
-.main-dashboard .right-aside .recent-updates .updates .update .image {width:4rem;
+       .right-aside .recent-updates .updates .update .image {width:4rem;
                                                                       height:4rem;
                                                                       border-radius:50%;
                                                                       display:flex;
@@ -1564,12 +1565,12 @@ table {width:100%;
                                                                       align-items:center;
                                                                       background:transparent;}
   
-.main-dashboard .right-aside .recent-updates .updates .update .image img {width:70%;
+       .right-aside .recent-updates .updates .update .image img {width:70%;
                                                                           height:70%;
                                                                           object-fit:cover;
                                                                           border-radius:50%;}
 
-.main-dashboard .right-aside .recent-updates .updates .update .message {max-width:17rem;
+       .right-aside .recent-updates .updates .update .message {max-width:17rem;
                                                                         display:flex;
                                                                         flex-direction:column;
                                                                         justify-content:center;
@@ -1579,18 +1580,18 @@ table {width:100%;
                                                                         padding:0;
                                                                         background:transparent;}
 
-.main-dashboard .right-aside .recent-updates .updates .update .message p {margin:0;
+       .right-aside .recent-updates .updates .update .message p {margin:0;
                                                                           font-size:0.8rem;
                                                                           color:var(--color-dark-varient);}
 
-.main-dashboard .right-aside .recent-updates .updates .update .message p b {color:var(--gray-color1);
+       .right-aside .recent-updates .updates .update .message p b {color:var(--gray-color1);
                                                                             font-size:0.9rem;}
 
-.main-dashboard .right-aside .recent-updates .updates .update .message small {color:var(--color-dark-varient);
+       .right-aside .recent-updates .updates .update .message small {color:var(--color-dark-varient);
                                                                               font-size:0.8rem;}
 
 /*****RIGHT ASIDE***** sales-analytics block **************/
-.main-dashboard .right-aside .sales-analytics .items {width:100%;
+       .right-aside .sales-analytics .items {width:100%;
                                                       display:flex;
                                                       flex-direction:column;
                                                       padding:0;
@@ -1598,7 +1599,7 @@ table {width:100%;
                                                       gap:1.2rem;
                                                       background-color:transparent;}
 
-.main-dashboard .right-aside .sales-analytics .item {width:100%;
+       .right-aside .sales-analytics .item {width:100%;
                                                      display:flex;
                                                      flex-direction:row;
                                                      justify-content:space-between;
@@ -1608,38 +1609,38 @@ table {width:100%;
                                                      box-shadow:var(--box-shadow2);
                                                      padding:1rem 1.4rem 1rem 0.6rem;}
 
-.main-dashboard .right-aside .sales-analytics .item #icon {color:var(--white);
+       .right-aside .sales-analytics .item #icon {color:var(--white);
                                                            padding:0.7rem;
                                                            width:2.8rem;
                                                            height:2.8rem;
                                                            border-radius:50%;}
 
-.main-dashboard .right-aside .sales-analytics .item.online #icon {background-color: var(--primary1);}
-.main-dashboard .right-aside .sales-analytics .item.offline #icon {background-color: var(--primary2)}
-.main-dashboard .right-aside .sales-analytics .item.customer #icon {background-color: var(--primary3)}
+       .right-aside .sales-analytics .item.online #icon {background-color: var(--primary1);}
+       .right-aside .sales-analytics .item.offline #icon {background-color: var(--primary2)}
+       .right-aside .sales-analytics .item.customer #icon {background-color: var(--primary3)}
 
 
-.main-dashboard .right-aside .sales-analytics .item .info {display:block;}
+       .right-aside .sales-analytics .item .info {display:block;}
 
-.main-dashboard .right-aside .sales-analytics .item .info h3 {font-size:1.1rem;
+       .right-aside .sales-analytics .item .info h3 {font-size:1.1rem;
                                                               font-weight:bold;
                                                               margin:0;
                                                               color:var(--gray-color1);}
 
-.main-dashboard .right-aside .sales-analytics .item .info small {margin:0;
+       .right-aside .sales-analytics .item .info small {margin:0;
                                                                  color:var(--color-dark-varient);}
 
-.main-dashboard .right-aside .sales-analytics .item h5 {font-size:1rem;
+       .right-aside .sales-analytics .item h5 {font-size:1rem;
                                                         font-weight:bold;}
 
-.main-dashboard .right-aside .sales-analytics .item.online h5 {color:var(--primary3);}
-.main-dashboard .right-aside .sales-analytics .item.offline h5 {color:var(--primary2);}
-.main-dashboard .right-aside .sales-analytics .item.customer h5 {color:var(--primary3);}
+       .right-aside .sales-analytics .item.online h5 {color:var(--primary3);}
+       .right-aside .sales-analytics .item.offline h5 {color:var(--primary2);}
+       .right-aside .sales-analytics .item.customer h5 {color:var(--primary3);}
 
-.main-dashboard .right-aside .sales-analytics .item h4 {font-size:1.1rem;
+       .right-aside .sales-analytics .item h4 {font-size:1.1rem;
                                                         font-weight:bold;}
 
-.main-dashboard .right-aside .add-btn {width:100%;
+       .right-aside .add-btn {width:100%;
                                        font-size:1.2rem;
                                        text-align:center;
                                        text-transform:capitalize;
@@ -1652,25 +1653,25 @@ table {width:100%;
                                        border:1px dashed var(--gray-color2);
                                        transition:all 0.3s linear;}
 
-.main-dashboard .right-aside .add-btn #icon {margin-right:0.7rem;
+       .right-aside .add-btn #icon {margin-right:0.7rem;
                                              font-size:1.3rem;}
 
-.main-dashboard .right-aside .add-btn:hover {color:var(--white);
+       .right-aside .add-btn:hover {color:var(--white);
                                              background-color:var(--primary4);
                                              border:1px dashed var(--white);}
 
 /*****RIGHT ASIDE***** all-users block **************/
-.main-dashboard .right-aside .all-users .buttons {display:flex;
+       .right-aside .all-users .buttons {display:flex;
                                                   flex-direction:row;
                                                   flex-wrap:wrap;
                                                   justify-content:center;
                                                   gap:1.5rem;
                                                   width:100%;}
 
-.main-dashboard .right-aside .all-users .buttons .active {color:var(--white);
+       .right-aside .all-users .buttons .active {color:var(--white);
                                                           background-color:var(--light-green7);}
 
-.main-dashboard .right-aside .all-users .items {width:80%;
+       .right-aside .all-users .items {width:80%;
                                                 margin:0;
                                                 margin-left:1rem;
                                                 display:flex;
@@ -1679,22 +1680,22 @@ table {width:100%;
                                                 gap:1.5rem;
                                                 background-color:transparent;}
 
-.main-dashboard .right-aside .all-users .items .item {display:flex;
+       .right-aside .all-users .items .item {display:flex;
                                                       flex-direction:row;
                                                       justify-content:flex-start;
                                                       align-items:center;
                                                       gap:1rem;}
 
-.main-dashboard .right-aside .all-users .items .item h4 {font-size:1rem;
+       .right-aside .all-users .items .item h4 {font-size:1rem;
                                                          font-weight:bold;
                                                          color:var(--gray-color1);}
 
-.main-dashboard .right-aside .all-users .items .item img {width:4rem;
+       .right-aside .all-users .items .item img {width:4rem;
                                                           height:4rem;
                                                           object-fit:cover;
                                                           border-radius:50%;}
 
-
+}
 /*
  ==================================
  ######## USER PROFILE PAGE #######
