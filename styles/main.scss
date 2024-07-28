@@ -2463,12 +2463,13 @@ table {width:100%;
  ####### CUSTOMERS PAGE ######
  =============================
 */
-.main-customers .customer-container {width:99%;
-                                     display:block;
-                                     margin:1rem auto;
-                                     padding:0;
-                                     text-align:left;
-                                     border-radius:0.7rem;}
+.main-customers {
+       .customer-container {width:99%;
+                            display:block;
+                            margin:1rem auto;
+                            padding:0;
+                            text-align:left;
+                            border-radius:0.7rem;}
 
 .pagination {width:fit-content;
              margin:2rem auto 1rem;
@@ -2510,47 +2511,51 @@ table {width:100%;
 
 .pagination .pagination-link.active {border:1px solid var(--black);}
 
-/* table */
-.main-customers .customer-container table {border:none;
-                                           width:100%;
-                                           margin:0;
-                                           border-radius:0.7rem;
-                                           background-color:var(--white);}
-/* head */
-.main-customers .customer-container table thead {background-color:var(--white);}
+       /* table */
+       .customer-container {
 
-.main-customers .customer-container table thead:first-child {border-bottom:1px solid var(--gray-color8);}
+              table {border:none;
+                     width:100%;
+                     margin:0;
+                     border-radius:0.7rem;
+                     background-color:var(--white);
 
-.main-customers .customer-container table thead:last-child {border-top:1px solid var(--gray-color8);}
+                     /* head */
+                     thead {background-color:var(--white);}
 
-.main-customers .customer-container table thead tr th:not(:first-child) {padding:0.4rem 1rem 1rem;
-                                                                         text-align:center;}
+                     thead:first-child {border-bottom:1px solid var(--gray-color8);}
 
-.main-customers .customer-container table thead tr th:first-child {padding:0 0.1rem 0.3rem 1rem;
-                                                                   text-align:center;}
+                     thead:last-child {border-top:1px solid var(--gray-color8);}
 
-.main-customers .customer-container table thead tr th:nth-child(2) {text-align:left;}
+                     thead tr th:not(:first-child) {padding:0.4rem 1rem 1rem;
+                                                    text-align:center;}
 
+                     thead tr th:first-child {padding:0 0.1rem 0.3rem 1rem;
+                                              text-align:center;}
 
-/* body */
-.main-customers .customer-container table tbody tr:nth-child(odd) {background-color:rgba(216, 140, 0, 0.041);}
+                     thead tr th:nth-child(2) {text-align:left;}
 
-.main-customers .customer-container table tbody tr td:nth-child(odd) {font-weight:bold;}
+                     /* body */
+                     tbody tr:nth-child(odd) {background-color:rgba(216, 140, 0, 0.041);}
 
-.main-customers .customer-container table tbody tr td:not(:first-child) {padding:1.1rem 1rem 2rem;
-                                                                         color:var(--gray-color1);
-                                                                         text-align:center;}
+                     tbody tr td:nth-child(odd) {font-weight:bold;}
 
-.main-customers .customer-container table tbody tr td:first-child {padding:0 0.1rem 0.3rem 1rem;
-                                                                   text-align:center;}
+                     tbody tr td:not(:first-child) {padding:1.1rem 1rem 2rem;
+                                                    color:var(--gray-color1);
+                                                    text-align:center;}
 
-.main-customers .customer-container table tbody tr td:nth-child(2) {text-align:left;}
+                     tbody tr td:first-child {padding:0 0.1rem 0.3rem 1rem;
+                                              text-align:center;}
 
-.main-customers .customer-container table tbody tr td .buttons {left:1rem;}
+                     tbody tr td:nth-child(2) {text-align:left;}
 
-.main-customers .customer-container table tbody tr td .buttons > a {color:var(--gray-yellow6);
-                                                                    text-transform:uppercase;}
+                     tbody tr td .buttons {left:1rem;}
 
+                     tbody tr td .buttons > a {color:var(--gray-yellow6);
+                                               text-transform:uppercase;}
+              }
+       }
+}
 /*
  ================================
  ########## USERS PAGE ##########
